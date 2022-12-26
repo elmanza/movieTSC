@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "CommonJS",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "."
+  },
+  "include": ["src/*/", "db"],
+  "exclude": ["test", "*/.spec.ts", "**/test", "db"]
+}
